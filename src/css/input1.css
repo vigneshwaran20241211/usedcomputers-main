@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.dots{
+    background-image: url("../images/dot.png");
+}
+.how-it-works, .client-list {
+    background: linear-gradient(198.17deg, #1B1E56 9.75%, #003456 49.05%, #5CA845 110.17%);
+}
+
+.drive{
+    background-image: url("../images/iphone.png");
+    padding: 216px 132px 65px;
+    width: 598px;
+    height: 878px;
+}
+.active-linear-gradient{
+    background: linear-gradient(263.18deg, #003456 8.97%, #5CA845 111.57%);
+}
+.gray-gradient{
+    background: linear-gradient(270deg, #D9D9D9 1.42%, #FBFCFF 45.08%, #777777 52%, #949497 75.84%, #E6E6E7 94.49%);
+}
+.b-gray-gradient{
+    border: 2px solid; 
+    border-image-source: linear-gradient(48.09deg, #D9D9D9 3.56%, #777777 40.83%, #FFFFFF 54.24%, #949497 96.48%);
+}
+.border-gradient{
+    border-image: linear-gradient(to right, #015B8E 0%, #5CA845 100%) 1;
+    border-width: 4px;
+    border-style: solid;
+}
+@media (max-width:767px){
+    .drive{
+        padding: 20px; 
+        width: 360px;
+        height: 560px; 
+        margin: 0 auto;
+    }
+    .iphone-template .drive  .grid {
+        padding: 98px 60px 10px; 
+    }
+}

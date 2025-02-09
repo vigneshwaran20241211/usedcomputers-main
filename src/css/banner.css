@@ -1,0 +1,35 @@
+.banner {
+    display: none;
+  }
+
+  .drive {
+    background-image: none;
+    
+  }
+  .bck
+  {
+        background: linear-gradient(140deg, rgba(2, 0, 36, 1) 0%, rgb(50 115 77) 0%, rgba(92, 168, 69, 1) 100%);
+  }
+  .static
+  {
+   margin-bottom:-100px;
+  }
+  @media (min-width: 768px) {
+    .banner {
+      display: block;
+    }
+   .drive {
+      background-image: url('/images/iphone.png'); /* Use your actual image path */
+    }
+    .static
+    {
+    margin-bottom:0px;
+    }
+    .bck
+    {
+    background: rgb(2,0,36);
+		background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(0,52,86,1) 0%, rgba(92,168,69,1) 100%);
+    padding:-20px;
+    border-radius:25px;
+    }
+  }

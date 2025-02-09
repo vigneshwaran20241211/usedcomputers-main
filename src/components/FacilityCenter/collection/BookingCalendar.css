@@ -1,0 +1,16 @@
+/* BookingCalendar.css or any other appropriate CSS file */
+
+.react-calendar {
+    width: 100%;
+    max-width: 100%;
+    background: white;
+    border: 1px solid #a0a096;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    line-height: 1.125em;
+  }
+  
+  .react-calendar__tile {
+    font-size: 1.2rem; /* Adjust tile font size */
+    padding: 15px; /* Add padding to the tiles */
+  }
+  

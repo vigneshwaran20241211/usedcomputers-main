@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dots {
+    background-image: url("../images/dot.png");
+}
+
+.how-it-works, .client-list {
+    background: rgb(2,0,36);
+    background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(0,52,86,1) 0%, rgba(92,168,69,1) 100%);
+}
+
+.drive {
+    background-image: url("../images/iphone.png");
+    padding: 216px 132px 65px;
+    width: 598px;
+    height: 878px; 
+}
+.corpora
+{
+width: 440px;
+height: 467.92px;
+max-width: 1320px;
+padding: 30.4px 12px 0px 12px;
+gap: 0px;
+opacity: 0;
+
+}
+
+#menu-button
+{
+    color : #00488D;
+    float:right !important;
+    margin-left: 320px;
+    margin-top: -80px;
+    height: 30px;
+    width: 30px;
+}
+@media (max-width: 767px) {
+    .drive {
+        padding: 20px;
+        width: 400px;
+        height: 700px;
+        margin: 0 auto;
+        margin-top: 200px;
+		 background-image:none;
+    }
+
+    .iphone-template {
+        display: block;
+    }
+
+    .iphone-template .drive .grid {
+        padding: 12px 60px 10px;
+		width:100%;
+		margin-top:45px;
+		/* background: rgb(2,0,36);
+		background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(0,52,86,1) 0%, rgba(92,168,69,1) 100%); */
+    }
+	.bck
+	{
+		
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    #whmob
+    {
+        margin-top: 100px;
+    }
+    .whoare
+    {
+       margin: auto;
+    }
+    .ser
+    {
+    width:320px !important;
+    margin-left: -65px;
+    }
+    #menu-button
+    {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .whoare
+    {
+        width:100%;
+    }
+    .Client1log
+    {
+        width:100%;
+        margin: 20px !important;
+        height: 100%;
+    }
+  }
