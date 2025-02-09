@@ -89,7 +89,7 @@ const Navbar: React.FC = () => {
         >
           <ul className="uppercase pt-4 text-xs xl:text-sm text-white font-bold md:flex md:justify-between md:pt-0 px-5 lg:px-0">
             <li><a className="md:p-1 xl:p-3.5 py-5 lg:py-2 block text-xs xl:text-sm" href="#banner">Home</a></li>
-            <li><a className="md:p-1 xl:p-3.5 py-5 lg:py-2 block text-xs xl:text-sm" href="#aboutus">ABOUT US 12</a></li>
+            <li><a className="md:p-1 xl:p-3.5 py-5 lg:py-2 block text-xs xl:text-sm" href="#aboutus">ABOUT US </a></li>
             <li><a className="md:p-1 xl:p-3.5 py-5 lg:py-2 block text-xs xl:text-sm" href="#howit">HOW IT WORKS</a></li>
             <li><a className="md:p-1 xl:p-3.5 py-5 lg:py-2 block text-xs xl:text-sm" href="#corporatewaste">CORPORATE E-WASTE</a></li>
             <li><a className="md:p-1 xl:p-3.5 py-5 lg:py-2 block text-xs xl:text-sm" href="#carbancredit">CARBON CREDIT</a></li>
